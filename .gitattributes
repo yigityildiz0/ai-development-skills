@@ -2,3 +2,27 @@
 *.zip -text
 **/LICENSE* -text
 **/NOTICE* -text
+
+# CURRENT PROVIDER PAYLOAD BYTES
+# Packages and checked-out provider sources must have identical bytes on every OS.
+skills/common/coding-workflow/** -text
+skills/codex/coding-workflow/** -text
+skills/claude/coding-workflow/** -text
+skills/common/ai-agent-builder/** -text
+skills/codex/ai-agent-builder/** -text
+skills/claude/ai-agent-builder/** -text
+skills/common/ai-research-skills/** -text
+skills/codex/ai-research-skills/** -text
+skills/claude/ai-research-skills/** -text
+skills/common/context7-mcp/** -text
+skills/codex/context7-mcp/** -text
+skills/claude/context7-mcp/** -text
+skills/common/find-docs/** -text
+skills/codex/find-docs/** -text
+skills/claude/find-docs/** -text
+skills/common/modern-web-guidance/** -text
+skills/codex/modern-web-guidance/** -text
+skills/claude/modern-web-guidance/** -text
+skills/common/graphify/** -text
+skills/codex/graphify/** -text
+skills/claude/graphify/** -text
