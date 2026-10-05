@@ -24,7 +24,7 @@
       "Claude": 44
     },
     "ai-research-skills": {
-      "common": 430,
+      "common": 431,
       "GPT": 96,
       "Claude": 96
     },
@@ -75,7 +75,7 @@
     "packages/codex/graphify.zip": "88506381c0fafb652f56f89e512423f1493f357b36d52ee9f41f64aeb4a37496",
     "packages/codex/modern-web-guidance.zip": "5c3fa77c8611268f2d4118a633f266520ea2e08e29c0f50135d97f8f2ab21b62",
     "packages/common/ai-agent-builder.zip": "2c6cc5f45aed9374969ed54f05e48be87b6e1cb43e18824e14a1f8346e3d7625",
-    "packages/common/ai-research-skills.zip": "785d4013ead9c807c50f10a83331f9b6082f93cadbac3979b3bc97d2a75616b1",
+    "packages/common/ai-research-skills.zip": "fcc4e1d6014e92175b2a654b21c88a8aaaee1b486e4018c265eb6bff29e41331",
     "packages/common/coding-workflow.zip": "bb6dcad26f52016df3f643a9aad2aefaa8e7152b279fe163730863115541fa0d",
     "packages/common/context7-mcp.zip": "7c4e11c0219209e1850b4432dac1ad3ef69f7affadfe5e2780fa812639633e14",
     "packages/common/find-docs.zip": "5deff0fd3424deddcda4197b351d96560356af088512cebc05ed8a2450247a78",
