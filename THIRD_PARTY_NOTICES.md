@@ -1,13 +1,18 @@
-# Third-party notices
+# Current source notices / Güncel kaynak bildirimleri
 
-## Current collection: provenance and license scope
+Original license files stay with source; missing evidence is not an MIT grant. Historical records remain in Git history.
 
-The source tree and per-module LICENSE/NOTICE files are included. Existing license grants govern their own files; this collection does not relicense copied material. Missing explicit grants are marked as not specified, not assumed to be MIT.
+| Skill | Root notices | Evidence status |
+|---|---|---|
+| ai-agent-builder | not supplied / sağlanmamış | root-license-not-specified |
+| ai-research-skills | [LICENSE](skills/common/ai-research-skills/LICENSE) | evidence-present-scope-review |
+| caveman | [LICENSE](skills/common/caveman/LICENSE) · [LICENSE-MIT-LEGACY](skills/common/caveman/LICENSE-MIT-LEGACY) · [LICENSE-UPSTREAM-APACHE-2.0](skills/common/caveman/LICENSE-UPSTREAM-APACHE-2.0) · [NOTICE](skills/common/caveman/NOTICE) · [NOTICE-UPSTREAM](skills/common/caveman/NOTICE-UPSTREAM) | evidence-present-scope-review |
+| coding-workflow | not supplied / sağlanmamış | root-license-not-specified |
+| context7-mcp | not supplied / sağlanmamış | root-license-not-specified |
+| find-docs | not supplied / sağlanmamış | root-license-not-specified |
+| graphify | [LICENSE](skills/common/graphify/LICENSE) · [LICENSE-MIT](skills/common/graphify/LICENSE-MIT) | evidence-present-scope-review |
+| modern-web-guidance | [LICENSE](skills/common/modern-web-guidance/LICENSE) | evidence-present-scope-review |
+| personal-tech-copilot | not supplied / sağlanmamış | root-license-not-specified |
+| primary-source-research | [LICENSE](skills/common/primary-source-research/LICENSE) | evidence-present-scope-review |
 
-- `coding-workflow`: `modules/playwright-interactive/LICENSE.txt`, `modules/playwright-interactive/NOTICE.txt`
-- `ai-agent-builder`: `modules/chatgpt-apps/LICENSE.txt`, `modules/mcp-builder/LICENSE.txt`
-- `ai-research-skills`: `LICENSE`
-- `context7-mcp`: no explicit license file supplied by the canonical source; consult module provenance
-- `find-docs`: no explicit license file supplied by the canonical source; consult module provenance
-- `modern-web-guidance`: `LICENSE`
-- `graphify`: no explicit license file supplied by the canonical source; consult module provenance
+See provenance-current.json for file hashes, module notices and portability adaptations. Root evidence is not blanket rights clearance.

@@ -1,0 +1,26 @@
+{
+  "title": "AI Development Skills",
+  "summary": "Software delivery, AI tooling, current documentation and codebase understanding.",
+  "summary_tr": "Yazılım geliştirme, AI araçları, güncel dokümantasyon ve kod tabanını anlama iş akışları.",
+  "skills": [
+    "ai-agent-builder",
+    "ai-research-skills",
+    "caveman",
+    "coding-workflow",
+    "context7-mcp",
+    "find-docs",
+    "graphify",
+    "modern-web-guidance",
+    "personal-tech-copilot",
+    "primary-source-research"
+  ],
+  "topics": [
+    "agent-skills",
+    "software-engineering",
+    "ai-agents",
+    "claude-code"
+  ],
+  "repository": "ai-development-skills",
+  "base_commit": "7f5815a549a9ccad40fe7b9dee8c79eafaaf39e1",
+  "canonical_repository": "universal-ai-skill-library"
+}

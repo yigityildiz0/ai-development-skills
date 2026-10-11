@@ -1,34 +1,79 @@
-<!-- CURRENT-SKILL-PUBLICATION -->
-![AI Development Skills](assets/collection-hero.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <img src="assets/hero-light.svg" width="1280" alt="AI Development Skills — clear questions, repeatable workflows, reviewable results">
+</picture>
 
 # AI Development Skills
 
-7 skill: kaynak araştırma, araç seçimi ve doğrulanabilir sonuç üretme için hazır iş akışları. Modelin ağırlıklarını değiştirmez; sonuç kalitesi kullanılan kaynaklara ve araçlara bağlıdır.
+[English](README.md) · [Türkçe](README.tr.md)
 
-[![Download ChatGPT](https://img.shields.io/badge/ChatGPT-Download_ZIP-10a37f?style=for-the-badge)](https://github.com/yigityildiz0/ai-development-skills/raw/refs/heads/main/downloads/ChatGPT.zip) [![Download Claude](https://img.shields.io/badge/Claude-Download_ZIP-d97757?style=for-the-badge)](https://github.com/yigityildiz0/ai-development-skills/raw/refs/heads/main/downloads/Claude.zip)
+**Yazılım geliştirme, AI araçları, güncel dokümantasyon ve kod tabanını anlama iş akışları.**
 
-**ChatGPT:** bütün listelenen skilleri içeren eklenti paketini indir; hesabının desteklediği kişisel eklenti/skill içe aktarma akışını kullan. Tek-skill ChatGPT bağlantısı, tek skill içeren eklenti ZIP’idir. **Claude:** toplu ZIP’i aç, içindeki tekil skill ZIP’lerini ayrı ayrı yükle. Dış ZIP tek bir Claude skill’i değildir. Yerel kurulum bulut hesabına yükleme yapmaz.
+10 bakımı sürdürülen giriş noktası. Göreve göre birini seç; tüm kütüphaneyi bağlama yükleme.
 
-Türkçe veya İngilizce doğal isteklerle kullan; aşağıdaki örnekleri kendi soruna uyarla. Kısa kelimeler seçim ipuçlarıdır; bütün platformlarda aynı slash menüsünü oluşturmaz. Mevcut iş akışları ve güvenlik kuralları korunmuştur.
+[Başla](docs/INSTALL.md) · [Katalog](https://yigityildiz0.github.io/universal-ai-skill-library/) · [İndirmeler](DOWNLOADS.md) · [Bakım modeli](MAINTAINING.md)
 
-## Skill listesi
+## Yapmak istediğin işi seç
 
-| Skill | Çözdüğü sorun / örnek istek | ChatGPT | Claude |
-|---|---|---|---|
-| [`coding-workflow`](skills/common/coding-workflow/SKILL.md) | Hata çöz; kod incele; değişikliği doğrula | [↓ ZIP](packages/chatgpt/coding-workflow.zip) | [↓ ZIP](packages/claude/coding-workflow.zip) |
-| [`ai-agent-builder`](skills/common/ai-agent-builder/SKILL.md) | Skill geliştir; eklentiyi incele; MCP tasarla | [↓ ZIP](packages/chatgpt/ai-agent-builder.zip) | [↓ ZIP](packages/claude/ai-agent-builder.zip) |
-| [`ai-research-skills`](skills/common/ai-research-skills/SKILL.md) | AI araştırma fikri üret; deney veya makale planla | [↓ ZIP](packages/chatgpt/ai-research-skills.zip) | [↓ ZIP](packages/claude/ai-research-skills.zip) |
-| [`context7-mcp`](skills/common/context7-mcp/SKILL.md) | Context7 ile güncel kütüphane belgesini bul | [↓ ZIP](packages/chatgpt/context7-mcp.zip) | [↓ ZIP](packages/claude/context7-mcp.zip) |
-| [`find-docs`](skills/common/find-docs/SKILL.md) | Resmi SDK/API/CLI belgesini bul | [↓ ZIP](packages/chatgpt/find-docs.zip) | [↓ ZIP](packages/claude/find-docs.zip) |
-| [`modern-web-guidance`](skills/common/modern-web-guidance/SKILL.md) | Modern CSS/API uyumluluğunu değerlendir | [↓ ZIP](packages/chatgpt/modern-web-guidance.zip) | [↓ ZIP](packages/claude/modern-web-guidance.zip) |
-| [`graphify`](skills/common/graphify/SKILL.md) | Belgeler veya kod arasında bilgi grafiği çıkar | [↓ ZIP](packages/chatgpt/graphify.zip) | [↓ ZIP](packages/claude/graphify.zip) |
+<details open>
+<summary><strong>Günlük işler</strong> · 2</summary>
 
-## Teknik bilgiler
+| Skill | Ne işe yarar? |
+|---|---|
+| [caveman](docs/skills/caveman.tr.md) | Kısa iletişim için resmî Caveman, Ultracave ve Megacave modlarını kullanır. |
+| [personal-tech-copilot](docs/skills/personal-tech-copilot.tr.md) | Günlük cihaz, uygulama ve kurulum sorunlarını mevcut araçlarla giderir. |
 
-Claude açıklamaları en fazla 200 karakterdir; her skill paketi en fazla 200 dosya içerir. Kaynaklar, yardımcı betikler ve lisanslar paketlenir. `ai-research-skills` için mevcut bulut alt kümesi ile tam yerel kaynak ayrı tutulur; paketlenmemiş modüller bulut paketinin içinde varmış gibi gösterilmez. API anahtarları, ücretli erişim, yerel CLI ve canlı veri bağlantıları paketin parçası değildir. Kontroller paket yapısını ve kaynak eşleşmesini doğrular; hesapta yükleme, klinik doğruluk veya yatırım performansı testi yapıldığı anlamına gelmez. [Bütünlük değerleri](downloads/SHA256SUMS.txt) · [Kaynak ve lisans bilgisi](THIRD_PARTY_NOTICES.md).
+</details>
 
+<details open>
+<summary><strong>Yazılım geliştirme</strong> · 6</summary>
 
-[AI research security repair / Güvenlik düzeltmesi](AI-RESEARCH-SECURITY.md): 98 local / 10 cloud modules retained; explicit scope, privacy and permission boundaries.
+| Skill | Ne işe yarar? |
+|---|---|
+| [ai-agent-builder](docs/skills/ai-agent-builder.tr.md) | Skill, ajan iş akışı ve MCP entegrasyonu geliştirir, inceler ve bakımını yapar. |
+| [coding-workflow](docs/skills/coding-workflow.tr.md) | Kod sorununu kapsamı belli uygulamaya ve doğrulanmış sonuca dönüştürür. |
+| [context7-mcp](docs/skills/context7-mcp.tr.md) | Mevcut Context7 entegrasyonuyla güncel kütüphane dokümanına ulaşır. |
+| [find-docs](docs/skills/find-docs.tr.md) | Yetkili doküman kaynağını ve doğru sürümü bulur. |
+| [graphify](docs/skills/graphify.tr.md) | Bilgi grafıyla kod, belge ve araştırma arasındaki ilişkileri anlamaya yardımcı olur. |
+| [modern-web-guidance](docs/skills/modern-web-guidance.tr.md) | Mevcut projeye yeni stack dayatmadan güncel web yaklaşımları seçer. |
 
-<!-- END-CURRENT-SKILL-PUBLICATION -->
+</details>
 
+<details open>
+<summary><strong>Araştırma ve analiz</strong> · 2</summary>
+
+| Skill | Ne işe yarar? |
+|---|---|
+| [ai-research-skills](docs/skills/ai-research-skills.tr.md) | Eğitim, RAG, değerlendirme ve deneyler için geniş ML mühendisliği kütüphanesini yönlendirir. |
+| [primary-source-research](docs/skills/primary-source-research.tr.md) | Resmî belge, spesifikasyon, kaynak kodu ve birincil kayıtlardan yanıt üretir. |
+
+</details>
+
+## Bir skill nasıl çalışır?
+
+~~~mermaid
+flowchart LR
+ A[Your goal] --> B[Match the skill]
+ B --> C[Load relevant module]
+ C --> D[Use available tools]
+ D --> E[Verify and explain]
+~~~
+
+Bu bir iş akışıdır; araç çalıştırıldığı veya bütün sonuçların doğrulandığı iddiası değildir. Her skill sayfasında örnek istek, tetikleme, mekanik, girdi/çıktı ve kaynak modüller var.
+
+## Tek kaynak, kalıcı koleksiyonlar
+
+Ana kaynak [Universal AI Skill Library](https://github.com/yigityildiz0/universal-ai-skill-library). Alan depoları aynı sürümün seçilmiş görünümleridir; ayrı ayrı çatallanıp elle düzenlenmez. Mevcut bağlantılar ve geçmiş korunur.
+
+[All collections / Tüm koleksiyonlar](COLLECTIONS.md) · [Legacy/community resources](LEGACY.md) · [Licenses & provenance](docs/LICENSE-SCOPE.md)
+
+## Dürüst kapsam
+
+- Skill kurmak model eğitmek veya hesap/araç bağlamak değildir.
+- Yerel dosya ile web hesabına yükleme farklıdır; desteklenen host akışını kullan.
+- Ek ücretli API veya model indirme otomatik yapılmaz.
+- Eski topluluk kataloğu güncel giriş noktalarının sayısına veya test iddiasına dahil değildir.
+- Kaynak lisansları korunur; bütün üçüncü taraf içeriğine tek lisans varsayılmaz.
+
+---
+Maintained by [Yigit Yildiz](https://github.com/yigityildiz0) · Source edition 2026.10.11

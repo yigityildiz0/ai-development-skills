@@ -1,38 +1,79 @@
-<!-- CURRENT-SKILL-PUBLICATION -->
-![AI Development Skills](assets/collection-hero.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <img src="assets/hero-light.svg" width="1280" alt="AI Development Skills — clear questions, repeatable workflows, reviewable results">
+</picture>
 
 # AI Development Skills
 
-Software engineering, agent tooling and current documentation. These **7 workflows** help the assistant select tools, check evidence and produce reviewable results. They do not change model weights or guarantee better decisions.
+[English](README.md) · [Türkçe](README.tr.md)
 
-[![Download ChatGPT](https://img.shields.io/badge/ChatGPT-Download_ZIP-10a37f?style=for-the-badge)](https://github.com/yigityildiz0/ai-development-skills/raw/refs/heads/main/downloads/ChatGPT.zip) [![Download Claude](https://img.shields.io/badge/Claude-Download_ZIP-d97757?style=for-the-badge)](https://github.com/yigityildiz0/ai-development-skills/raw/refs/heads/main/downloads/Claude.zip)
+**Software delivery, AI tooling, current documentation and codebase understanding.**
 
-**ChatGPT:** the button downloads a plugin with all listed skills and supporting files. Use the personal-plugin/skill import supported by your account. A single-skill ChatGPT button downloads a one-skill plugin. **Claude:** unpack the collection ZIP, then upload its individual skill ZIPs; the outer collection is not a single Claude skill. Local Codex/Claude Code files and cloud-account installation are separate.
+10 maintained entry points. Choose one for the job; do not load the entire library into context.
 
-Use natural English or Turkish requests. A slash-prefixed word typed in chat does not register a host command. Explicit local skill invocation uses the canonical skill name; available tools, network access and credentials remain host-dependent.
+[Start here](docs/INSTALL.md) · [Browse the catalog](https://yigityildiz0.github.io/universal-ai-skill-library/) · [Downloads](DOWNLOADS.md) · [Maintenance model](MAINTAINING.md)
 
-## Included skills
+## Start with the work you want to do
 
-| Skill | What it solves / example request | ChatGPT | Claude |
-|---|---|---|---|
-| [`coding-workflow`](skills/common/coding-workflow/SKILL.md) | Debug, review, implement and verify software changes | [↓ ZIP](packages/chatgpt/coding-workflow.zip) | [↓ ZIP](packages/claude/coding-workflow.zip) |
-| [`ai-agent-builder`](skills/common/ai-agent-builder/SKILL.md) | Create, audit and maintain skills, plugins and MCP integrations | [↓ ZIP](packages/chatgpt/ai-agent-builder.zip) | [↓ ZIP](packages/claude/ai-agent-builder.zip) |
-| [`ai-research-skills`](skills/common/ai-research-skills/SKILL.md) | Develop research ideas, experiments and scientific writing | [↓ ZIP](packages/chatgpt/ai-research-skills.zip) | [↓ ZIP](packages/claude/ai-research-skills.zip) |
-| [`context7-mcp`](skills/common/context7-mcp/SKILL.md) | Look up current library and API documentation with Context7 | [↓ ZIP](packages/chatgpt/context7-mcp.zip) | [↓ ZIP](packages/claude/context7-mcp.zip) |
-| [`find-docs`](skills/common/find-docs/SKILL.md) | Find official SDK, CLI, framework and cloud documentation | [↓ ZIP](packages/chatgpt/find-docs.zip) | [↓ ZIP](packages/claude/find-docs.zip) |
-| [`modern-web-guidance`](skills/common/modern-web-guidance/SKILL.md) | Check HTML/CSS/Web API support and progressive enhancement | [↓ ZIP](packages/chatgpt/modern-web-guidance.zip) | [↓ ZIP](packages/claude/modern-web-guidance.zip) |
-| [`graphify`](skills/common/graphify/SKILL.md) | Map relationships across code, documents and research | [↓ ZIP](packages/chatgpt/graphify.zip) | [↓ ZIP](packages/claude/graphify.zip) |
+<details open>
+<summary><strong>Everyday workflows</strong> · 2</summary>
 
-## Installation and technical boundaries
+| Skill | What it helps with |
+|---|---|
+| [caveman](docs/skills/caveman.en.md) | Use official Caveman, Ultracave and Megacave modes for concise communication. |
+| [personal-tech-copilot](docs/skills/personal-tech-copilot.en.md) | Troubleshoot everyday devices, apps and setup using the tools actually available. |
 
-- Full canonical sources: `skills/common/`; provider packages: `packages/chatgpt/`, `packages/claude/`, `packages/codex/`.
-- Every Claude skill has at most 200 files and a description of at most 200 characters. ZIPs include all files of the selected provider source; `ai-research-skills` has a pre-existing cloud subset and a separate full local source.
-- External services (Gemini, Parallel, Context7), local CLIs and subscriptions are not provided by these ZIPs. Report missing tools rather than simulating access.
-- Validation checks package integrity, paths, descriptions, source/package parity and hashes. It is not a live account-installation test or a clinical/financial effectiveness claim.
-- See [checksums](downloads/SHA256SUMS.txt), [provenance](PUBLICATION.md), and [third-party notices](THIRD_PARTY_NOTICES.md). Existing license and copyright files retain their scope; there is no blanket license grant over third-party content.
+</details>
 
+<details open>
+<summary><strong>Build software</strong> · 6</summary>
 
-[AI research security repair / Güvenlik düzeltmesi](AI-RESEARCH-SECURITY.md): 98 local / 10 cloud modules retained; explicit scope, privacy and permission boundaries.
+| Skill | What it helps with |
+|---|---|
+| [ai-agent-builder](docs/skills/ai-agent-builder.en.md) | Build, audit and maintain skills, agent workflows and MCP integrations. |
+| [coding-workflow](docs/skills/coding-workflow.en.md) | Move from a code problem to a scoped implementation and verified result. |
+| [context7-mcp](docs/skills/context7-mcp.en.md) | Retrieve current library documentation through an available Context7 integration. |
+| [find-docs](docs/skills/find-docs.en.md) | Find authoritative documentation and identify the correct version and source. |
+| [graphify](docs/skills/graphify.en.md) | Understand relationships across code, documents and research using a knowledge graph. |
+| [modern-web-guidance](docs/skills/modern-web-guidance.en.md) | Choose current web patterns without forcing a new stack onto an existing project. |
 
-<!-- END-CURRENT-SKILL-PUBLICATION -->
+</details>
 
+<details open>
+<summary><strong>Research & analyze</strong> · 2</summary>
+
+| Skill | What it helps with |
+|---|---|
+| [ai-research-skills](docs/skills/ai-research-skills.en.md) | Navigate a broad ML engineering library for training, RAG, evaluation and experiments. |
+| [primary-source-research](docs/skills/primary-source-research.en.md) | Answer from official documents, specifications, source code and first-party records. |
+
+</details>
+
+## What happens when a skill runs?
+
+~~~mermaid
+flowchart LR
+ A[Your goal] --> B[Match the skill]
+ B --> C[Load relevant module]
+ C --> D[Use available tools]
+ D --> E[Verify and explain]
+~~~
+
+This is the workflow, not a claim that tools ran or every result is verified. Each skill page explains an example request, trigger, mechanics, inputs/outputs and source modules.
+
+## One source. Durable collections.
+
+The canonical source is [Universal AI Skill Library](https://github.com/yigityildiz0/universal-ai-skill-library). Domain repositories are selected views of the same release—not independently edited forks. Existing links and history stay intact.
+
+[All collections / Tüm koleksiyonlar](COLLECTIONS.md) · [Legacy/community resources](LEGACY.md) · [Licenses & provenance](docs/LICENSE-SCOPE.md)
+
+## Honest scope
+
+- Installing a skill does not train a model or connect an account/tool.
+- Local files and a web-account import are different; follow the supported host flow.
+- No automatic extra billed API or model download.
+- The historical community catalog is not counted as maintained or claimed as runtime-tested.
+- Source licenses remain attached; no blanket third-party license is assumed.
+
+---
+Maintained by [Yigit Yildiz](https://github.com/yigityildiz0) · Source edition 2026.10.11
