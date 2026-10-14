@@ -6,4 +6,4 @@ Use README and DOWNLOADS for the current edition. Old tags/downloads may contain
 
 Türkçe: Güncel kapsam current-release.json ile tanımlanır. Eski katalog ve kaynaklar izlenebilirlik için korunur; eski sayı ve test iddiaları güncel kapsam değildir. Güncel README/indirmeleri kullan. Eski sürümler farklı sağlayıcı/host varsayımları içerebilir. Gemini Deep Research güncel sürümde yoktur; eski `slides` artık `html-slides` (yalnız tarayıcı sunumu), PowerPoint işleri `presentation-studio`'da.
 
-[Previous README at the preserved base commit](https://github.com/yigityildiz0/ai-development-skills/blob/e4ca9d3c0223bfb0026e2887cdbe023b56ee004a/README.md).
+[Previous README at the preserved base commit](https://github.com/yigityildiz0/ai-development-skills/blob/cd2394b578b2f6f0673e8fb79cc4c25470fca0c9/README.md).
