@@ -628,7 +628,7 @@
         ]
       },
       "SKILL.md": {
-        "sha256": "880203f4f2b08c57a21ad66b1f74613e34d6f4acd87bd21c8ec91d0b3a0a740e",
+        "sha256": "585bbb3620969e647129bd2a3a986b406f984cef641ab4defef675b8e228a6c3",
         "locations": [
           "ai-research-skills-part-001/yigit/complete-host-entrypoint.md",
           "ai-research-skills-part-002/yigit/complete-host-entrypoint.md",
@@ -3218,7 +3218,7 @@
         ]
       },
       "yigit/host-manifest.json": {
-        "sha256": "09f09fc57a4c6e665ac295c84b5a024591e0a0f4c1aa6915ffc87bef53006020",
+        "sha256": "86d24e2d3faf622a434ad587638641a27bd7672643df8471de264eed7179d5de",
         "locations": [
           "ai-research-skills-part-001/yigit/host-manifest.json",
           "ai-research-skills-part-002/yigit/host-manifest.json",
@@ -3258,7 +3258,7 @@
         ]
       },
       "yigit/source-SKILL.md": {
-        "sha256": "a8bc2ffcd5f9a4d992d9b6c782331b377f58e3184a563b493bad92559d2ef3bb",
+        "sha256": "392ad3b4f99c304f852bafffa0a3d8b3925d972eb79c3174dbf461cc7d34785b",
         "locations": [
           "ai-research-skills-part-001/yigit/source-SKILL.md",
           "ai-research-skills-part-002/yigit/source-SKILL.md",

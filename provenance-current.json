@@ -1,5 +1,5 @@
 {
-  "edition": "2026.10.11",
+  "edition": "2026.10.14",
   "files": [
     {
       "path": "ai-agent-builder/modules/ai-model-route-evaluator/MODULE.md",
@@ -3795,9 +3795,9 @@
     },
     {
       "path": "ai-research-skills/SKILL.md",
-      "source_sha256": "cf94062813796f767c667834a7b83ac2a94099bb67874e898bddf0476fc5ca54",
-      "published_sha256": "a8bc2ffcd5f9a4d992d9b6c782331b377f58e3184a563b493bad92559d2ef3bb",
-      "bytes": 17567,
+      "source_sha256": "484f3dbf04fc7875b940f37cdd2f13a204f02e3c6becc6e270b0b3d83b13641f",
+      "published_sha256": "392ad3b4f99c304f852bafffa0a3d8b3925d972eb79c3174dbf461cc7d34785b",
+      "bytes": 17594,
       "legal_notice": false,
       "modified": true
     },
